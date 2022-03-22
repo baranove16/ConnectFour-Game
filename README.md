@@ -1,7 +1,7 @@
 # ConnectFour-Game
 I have built a connect four game in Java, the source file contains all classes for the game along with the runner class to show how the game is meant to be run.
 
-The game follows the rules of a 4x4 connect four game, where getting four in a row diagonally, horizontally or vertically is a win.
+The game follows the rules of a 7x6 two player connect four game, where getting four in a row diagonally, horizontally or vertically is a win.
 
 **How The Game Looks and Runs**
 
@@ -9,7 +9,7 @@ The game follows the rules of a 4x4 connect four game, where getting four in a r
 
 **Insight Into the Design of the Game**
 
-This project implements object-oriented programming each class pertains to a specific job in the overall structure.
+This project implements object-oriented programming; each class pertains to a specific job in the overall structure.
 The Board class handles everything to do with creating, displaying, updating, resetting, and checking the board contains a win or not.
 The ConnectFour class handles the aspect of collecting information from each player and sending it onto the board as the game progresses until someone wins.
 The HumanPlayer class handles the input of a player each time.
